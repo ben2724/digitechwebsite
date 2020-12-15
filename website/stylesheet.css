@@ -1,0 +1,143 @@
+body{
+	margin:0;
+	background-color: blue;
+	}
+	
+nav{
+    padding:40px;
+    background:brown;
+	width:100%;
+	overflow:auto;
+	
+	}
+	
+li{
+    float:left;
+	}
+	
+	
+h3{
+    margin:0;
+	list-style:none;
+	font-weight:bold;
+	}
+	
+
+nav a{
+    width:350px;
+	text-align:center;
+	text-decoration:none;
+	display:block;
+	font-size:18px;
+	color:white;
+	padding:25px 50px;
+	font-family:arial;
+	}
+	
+nav a:hover{
+	transition: 0.3s;
+    background:#c7d9e8;
+	}
+
+/*attempted home image transition by placing a box behing the image at exactly the same proportions*/
+
+
+	.slider{
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background: black;
+	}
+	
+	.space{
+		width:100%;
+		position: absolute;
+		bottom:0;
+		align-items: center;
+		object-fit: cover;
+	}
+/*attempted home image transition by placing a box behing the image at exactly the same proportions*/
+	.space::After{
+		content: "";
+		background: #a30963;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		opacity: 0.9;
+	}
+
+	.title{
+		text-align:center;
+		font-family:arial;
+		letter-spacing:1px;
+		font-size:18px;
+		}
+		
+	
+	footer{
+		font-family:arial;
+		position:fixed;
+		bottom: 0;
+		height: 20px;
+		width: 100%;
+		padding:10px;
+		background:rgb(48, 48, 48);
+		color:white;
+		text-align:center;
+		letter-spacing:2px;
+		font-weight:italic;
+		font-weight:bold;
+		}
+
+    .button{
+		position: absolute;
+		left: 0;
+		align-items: center;
+		margin: 3px;
+	}
+
+
+	.light {
+		--darkmodeBg: var(--black);
+		--darkmodeFontColor: var(--white);
+		background-color: rgb(255, 255, 255);
+	  }
+	  
+	.dark {
+		--darkmodeBg: var(--white);
+		--darkmodeFontColor: var(--black);
+		background-color: rgb(54, 54, 65);
+	  }
+
+	  /*gallery styling*/
+	  .box{
+		max-width:850px;
+		margin:auto;
+		background:#f2f2f2;
+		overflow:auto;
+		}
+	
+	.gallery{
+		margin:16px;
+		border:1px solid;
+		float:left;
+		width:390px;
+		}
+		
+	.gallery img{
+		transition: 1s;
+		width:100%;
+		height:auto;
+		}
+	
+	.gallery img:hover {
+		transform:scale(1.1);
+		filter: blur(3px);
+	}
+		
+	.description{
+		padding:2px;
+		text-align:center;
+		}
+
