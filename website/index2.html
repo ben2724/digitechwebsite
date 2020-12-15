@@ -1,0 +1,106 @@
+<html>
+	<script src="javascript.js"></script>
+<head>
+<link rel="stylesheet" href="stylesheet.css">
+<meta charset="UTF-8">
+<title>Gallery</title>
+</head>
+
+
+<!-- Gallery specific styling-->
+<style>
+.box{
+    max-width:850px;
+	margin:auto;
+	background:#f2f2f2;
+	overflow:auto;
+	}
+
+.gallery{
+    margin:16px;
+	border:1px solid;
+	float:left;
+	width:390px;
+	}
+	
+.gallery img{
+	transition: 1s;
+    width:100%;
+	height:auto;
+	}
+
+.gallery img:hover {
+	transform:scale(1.1);
+}
+	
+.description{
+    padding:2px;
+	text-align:center;
+	}
+
+footer{
+    font-family:arial;
+    position:absolute;
+	bottom: 0;
+	width: 100%;
+    padding:10px;
+	background:brown;
+	color:white;
+	text-align:center;
+	letter-spacing:2px;
+	font-weight:italic;
+	font-weight:bold;
+	}
+</style>
+
+<body>
+<header>
+
+
+<nav>
+   <h3>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index2.html">Gallery</a></li>
+      <li><a href="index3.html">News</a></li>
+      <li><a href="index4.html">Contact</a></li>
+    </h3>
+</nav>
+
+<hr/>
+<hr/>
+</header>
+
+
+<div class = "box">
+
+    <div class = "gallery">
+	   <img src="images/preview1.jpg">
+	   <div class="description">Grenade</div>
+	</div>
+	
+	    <div class = "gallery">
+	   <img src="images/preview2.jpg">
+	   <div class="description">Watch</div>
+	</div>
+	
+	    <div class = "gallery">
+	   <img src="images/preview3.jpg">
+	   <div class="description">Spring</div>
+	</div>
+	
+	    <div class = "gallery">
+	   <img src="images/preview4.jpg">
+	   <div class="description">Head</div>
+
+</div>
+	
+</div>
+<footer>
+-Coming soon-
+</footer>
+
+
+</body>
+
+
+</html>
