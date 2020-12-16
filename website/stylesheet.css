@@ -1,11 +1,11 @@
 body{
 	margin:0;
-	background-color: blue;
+	background-color: rgb(97, 97, 128);
 	}
 	
 nav{
     padding:40px;
-    background:brown;
+    background:rgb(49, 49, 49);
 	width:100%;
 	overflow:auto;
 	
@@ -15,7 +15,10 @@ li{
     float:left;
 	}
 	
-	
+h2{
+	padding: 10px;
+}
+
 h3{
     margin:0;
 	list-style:none;
@@ -29,7 +32,7 @@ nav a{
 	text-decoration:none;
 	display:block;
 	font-size:18px;
-	color:white;
+	color:rgb(255, 255, 255);
 	padding:25px 50px;
 	font-family:arial;
 	}
@@ -82,7 +85,7 @@ nav a:hover{
 		height: 20px;
 		width: 100%;
 		padding:10px;
-		background:rgb(48, 48, 48);
+		background:rgb(49, 49, 49);
 		color:white;
 		text-align:center;
 		letter-spacing:2px;
@@ -110,7 +113,7 @@ nav a:hover{
 		background-color: rgb(54, 54, 65);
 	  }
 
-	  /*gallery styling*/
+	  /*gallery specific styling*/
 	  .box{
 		max-width:850px;
 		margin:auto;
@@ -133,7 +136,6 @@ nav a:hover{
 	
 	.gallery img:hover {
 		transform:scale(1.1);
-		filter: blur(3px);
 	}
 		
 	.description{
@@ -141,3 +143,30 @@ nav a:hover{
 		text-align:center;
 		}
 
+
+
+/*contact specific styling*/
+
+    .condetails{
+	padding: 4px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 18px;
+	}
+
+/*cv specific styling*/
+
+    .cv{
+		position: relative;
+		left: -180px;
+		top: -50px;
+		z-index: -1;
+
+	}
+
+	.cvtitle{
+		position: relative;
+		padding: 5px;
+		left: 100px;
+	}
+  

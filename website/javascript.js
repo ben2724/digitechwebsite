@@ -1,4 +1,4 @@
-'use strict'
+
 
 //select background and foreground for a fade in image transition.
 const space = document.querySelector(".space");
@@ -23,3 +23,4 @@ switcher.addEventListener('click', function() {
     else {
         this.textContent = "light";
     }
+
